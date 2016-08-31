@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-eqmwo9y!xsoho+#^0@p2oxb8x65x8(vag-^l4p29rm-a(9)@g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['staging.yongpil.xyz']
 
 
 # Application definition
